@@ -25,7 +25,4 @@ function validate() {
             alert("Could not authenticate user");
             window.location.href = "index.html"
         });
-/*    var check = firebase.auth().signInWithEmailAndPassword(email, pass);
-    alert(check);*/
 }
-
