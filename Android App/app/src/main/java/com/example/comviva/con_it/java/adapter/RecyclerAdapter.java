@@ -40,9 +40,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        /*holder.myTextView.setText("Device Name     " + deviceList.get(position).getDevicename() + "\n" +
-                "Device MacId   " + deviceList.get(position).getDeviceId() + "\n" + "Device SignalStrength     " +
-                deviceList.get(position).getDeviceStrength());*/
 
         OffersBean offersBean =offersList.get(position);
         StringBuilder sb =new StringBuilder();

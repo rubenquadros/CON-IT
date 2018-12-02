@@ -339,35 +339,8 @@ public void UpdateView(List<DeviceBean> deviceList) {
 
 public void initializeBeacons(){
 
+    beaconList=GlobalBeaconOffersData.getBeaconList();
 
-      beaconList=GlobalBeaconOffersData.getBeaconList();
-
-
-
-   /* String beacon1="8c:be:be:35:7a:59";
-    String beacon2="b0:e2:35:52:81:01";
-    beaconList=new ArrayList<>();
-    beaconList.add(beacon1);
-    beaconList.add(beacon2);*/
-
-
-//
-//    macIdOffersMap=new HashMap<>();
-//    OffersBean beacon1Offer1=new OffersBean("Nike","Shoes","30%");
-//    OffersBean beacon1Offer2=new OffersBean("Nike","jackets","40%");
-//    OffersBean beacon1Offer3=new OffersBean("Nike","Casuals","50%");
-//
-//
-//    OffersBean beacon2Offer1=new OffersBean("Peter England","T-Shirts","50%");
-//    OffersBean beacon2Offer2=new OffersBean("Peter England","Formal Shirts","40%");
-//    OffersBean beacon2Offer3=new OffersBean("Peter England","jeans","30%");
-//
-
-
-//    macIdOffersMap.put(beacon1,new ArrayList<OffersBean>(Arrays.asList(beacon1Offer1,beacon1Offer2,beacon1Offer3)));
-//    macIdOffersMap.put(beacon2,new ArrayList<OffersBean>(Arrays.asList(beacon2Offer1,beacon2Offer2,beacon2Offer3)));
-//
-//    GlobalBeaconOffersData.setMacIdOffersMap(macIdOffersMap);
 }
 
 
