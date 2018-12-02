@@ -53,7 +53,7 @@ function register() {
             alert('Please check your details');
         }
         else{
-            alert('hello');
+            console.log("Authentication Created");
         }
         });
 
